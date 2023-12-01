@@ -1,2 +1,61 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE */
-.purple {background-color: purple;}
+
+body{font-family: 'Quicksand';}
+#title {color: white;text-align: center; padding: 250px; font-size: 80px;
+}
+.pagetitle {text-align: center; padding-top: 50px; padding-bottom: 50px}
+#midge {color:white; padding-left: 850px; padding-top: 150px;
+}
+#home {padding-right: 410px; font-weight: bold; font-size: 16px}
+
+#what {padding-top:150px; font-weight: bold;}
+#erase {padding-top:50px;font-style: italic; font-size: 30px;}
+.grey {background: lightgrey}
+
+.stat {padding-top: 130px}
+
+.italic {font-style: italic; padding-top:20px; font-size: 20px; padding-bottom: 40px}
+
+.grey2{background: lightgrey; text-align: center; padding-top:120px; padding-bottom: 120px; font-size:100px}
+
+.fixed-image-container img {
+      width: 90%; 
+      object-fit: contain;
+      padding-top: 80px;
+      padding-bottom:50px }
+
+#whatis2 {padding-top: 90px; font-size:20px}
+
+.statone {
+  text-align: left;
+  padding-left: 150px; padding-right: 250px;
+  font-size:20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#carouselExampleCaptions {
+  max-width: 60%; 
+  margin: auto; }
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #75b7988c;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #f8f9fa;
+    --bs-btn-hover-border-color: #f8f9fa;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000;
+    --bs-btn-disabled-border-color: #f8f9fa;
+
+#seventy {text-align: left}
