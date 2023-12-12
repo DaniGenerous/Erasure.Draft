@@ -1,38 +1,76 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE */
+body {font-family: 'Quicksand'; background: black}
+#title {color: white;text-align: center; padding: 250px; font-size: 80px; }
 
-body{font-family: 'Quicksand';}
-#title {color: white;text-align: center; padding: 250px; font-size: 80px;
-}
 .pagetitle {text-align: center; padding-top: 50px; padding-bottom: 50px}
-#midge {color:white; padding-left: 850px; padding-top: 150px;
+#midge {color:white; padding-left: 810px; padding-top: 130px; font-style: italic;
 }
 #home {padding-right: 410px; font-weight: bold; font-size: 16px}
+.resource-title {font-size: 20px; padding-bottom: 5px; font-weight: bolder}
+#what {padding-top:20px; font-weight: bold; text-align: center; font-size: 50px; background: white !important; color:black}
+.black {background:black}
+.define {background: black; padding-bottom: 100px; color:white;text-align: center}
 
-#what {padding-top:150px; font-weight: bold;}
-#erase {padding-top:50px;font-style: italic; font-size: 30px;}
-.grey {background: lightgrey}
+#displace {text-align: center; padding-top:45px; padding-bottom: 50px}
+.white{background: white}
 
-.stat {padding-top: 130px}
+#getlow {padding-top: 20px}
 
-.italic {font-style: italic; padding-top:20px; font-size: 20px; padding-bottom: 40px}
+#redskins {height:300px; width:auto; margin-top: -80px}
+#redskins2 {height:300px; width:auto; margin-top: -80px}
+#squaw {height:220px; width:auto;}
+#omaha {height:220px; width:auto;}
+#lando {height:220px; width:auto;padding-bottom: 50px; padding-top: 20px}
+#lando2 {height:220px; width:auto; padding-bottom: 50px; padding-top: 20px}
+.smaller {height:200px; width:auto; background: white !important}
+#centerher {text-align: center; padding-bottom: 40px}
+.titleimage {background:black}
+#erase {padding-top:20px;font-style: italic; font-size: 30px; padding-bottom: 20px;}
+#pledge {padding-top: 100px}
+#mla {margin-left: 300px}
+.stat {padding-top: 50px; color:white; padding-bottom: 50px}
 
-.grey2{background: lightgrey; text-align: center; padding-top:120px; padding-bottom: 120px; font-size:100px}
+.whatistext {text-align: center; background: rgba(0, 0, 0, 0.9); color: white;}
+
+.italic {font-style: italic; padding-top:20px; font-size: 20px; padding-bottom: 40px; color: white }
+#quoted {color:white}
+#quotedtwo {font-style: normal !important; }
+.grey2{background: white; text-align: center; padding-top:120px;  font-size:100px; padding-left: 50px; padding-right:50px}
+
+.grey1 {background:black; color:white; margin-top: 10px ;padding-top: 100px; padding-bottom: 30px; text-align:center}
+#imageone {padding-left:0px}
+#invisibility {text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); font-size:40px; text-align: center}
+
+#collage1 { ; 
+  height: auto;}
 
 .fixed-image-container img {
       width: 90%; 
       object-fit: contain;
       padding-top: 80px;
-      padding-bottom:50px }
+      padding-bottom:50px; 
+    margin-top: 0;}
 
-#whatis2 {padding-top: 90px; font-size:20px}
+#whatis2 {padding-top: 40px; font-size:20px; color: white; padding-bottom: 60px}
 
-.statone {
+.col-2 .collapse .card-body {
+    max-width: 100%; /* Set the maximum width to 100% */
+    width: 300px; /* Set the desired width (adjust as needed) */
+    padding: 15px; /* Adjust padding as needed for better readability */
+    margin: 0; /* Remove any default margin */
+    text-align: left;}
+
+.statone h1 {
+  margin-top: -25px;
+background:white; margin-bottom:50px;
   text-align: left;
-  padding-left: 150px; padding-right: 250px;
-  font-size:20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 100px; padding-right: 250px; 
+  font-size:100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
+#studyfax {margin-top:-50px}
 
+#numbers {padding-left: 200px; padding-right: 200px; margin-top:-40px;line-height: 1.5; }
 #carouselExampleCaptions {
   max-width: 60%; 
   margin: auto; }
@@ -42,20 +80,366 @@ body{font-family: 'Quicksand';}
   height: auto;
 }
 
-.btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #75b7988c;
-    --bs-btn-border-color: #f8f9fa;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #f8f9fa;
-    --bs-btn-hover-border-color: #f8f9fa;
+#seventy {text-align: left}
+
+#newTrailOfTears {
+    padding: 10px 20px; margin-top: -20px;
+    margin-left: 10px !important; 
+}
+
+#newButton {padding: 10px 8px;
+    margin: 0; margin-top: 20px;
+   margin-right: 30px !important}
+
+#sand {padding: 10px 8px;
+    margin: 0;    margin-top: -20px;
+     margin-left: 20px !important; width: 200px}
+
+ #boarding {
+ 	padding: 10px 8px;
+    margin: 0;    margin-top: -20px;
+    margin-left: 100px !important; width: 200px;
+ }
+ #erasurepoem {margin-top: 20px; margin-bottom: 600px;}
+
+#button1 {margin-left: 340px;font-weight: bold; padding: 10px 10px;}
+
+#button2 {margin-left: 20px; font-weight: bold; padding: 10px 10px}
+
+#button3 {margin-left: 20px; font-weight: bold; padding: 10px 10px}
+
+ a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+.previous-link{ 
+  color:black; margin-right: 5000px; 
+  font-size: 24px; 
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 18px;
+}
+#poca {color:white; text-align:center; padding-left: 300px; padding-right: 300px; padding-top: 50px; padding-bottom: 50px; font-size: 20px}
+
+#seeit {text-align: center; color: white;  padding-bottom: 50px}
+.custom-buttons .btn { justify-content: center; align-content: center; --bs-btn-color: rgba(0, 0, 0, 0.9);
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: rgba(0, 0, 0, 0.9);
+    --bs-btn-hover-bg: #dc7435;
+    --bs-btn-hover-border-color: #dc7435;
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #f8f9fa;
-    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #000;
-    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #495057; padding-bottom:100px } 
 
-#seventy {text-align: left}
+#Wounded {padding: 10px 8px;
+    margin: 0;  margin-top: -20px;
+    margin-left: 180px !important; width: 200px
+ }
+
+#battlelb {padding: 10px 8px;
+    margin: 0;    margin-top: 20px;
+   margin-left: 70px !important}
+
+#dawes {padding: 10px 20px;
+    margin: 0;    margin-top: 20px;
+   margin-left: 90px !important}
+
+#appropriations {padding: 10px 8px;
+    margin: 0; margin-top: 20px;
+     margin-left: 100px !important}
+
+#newButton2 {padding: 10px 8px;
+    margin: 0;  margin-top: -20px;
+     margin-left: 260px !important; width: 230px}
+
+.description {line-height: 1.8; padding-bottom: 40px; padding-top:20px;}
+
+#johnphoto1 {padding-left: 20px; }
+
+#johnphoto {margin-top: -110px; padding-right: 70px; padding-top: 100px; }
+#johnvideo {margin-left: 600px; height:500px; width:auto; padding-top:40px}
+#johnsbutton {margin-top: -325px; margin-left: 190px}
+
+#johnquote2 {text-align: center; padding-left: 300px; padding-right: 300px; line-height: 1.8; font-style: italic;}
+#poemby {text-align: center; color: white; padding-bottom: 20px}
+
+#crytitle {color:whitesmoke; font-size: 50px; text-align: center; padding-top: 50px; padding-bottom: 20px}
+
+#johnquote {font-style: italic; font-size: 15px;  letter-spacing: 1.5px; text-align: center; padding-top: 120px; padding-right: 50px}
+#buffy {text-align: center; padding-top: 10px; padding-right: 60px}
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#delbertmainpic {height:700px; width:auto;}
+
+#delbertquote {font-style: italic; font-size: 15px;  letter-spacing: 1.5px; text-align: center; padding-top: 40px}
+#iddelbert {text-align: center}
+#virgilquote {font-style: italic; font-size: 15px;  letter-spacing: 1.5px; text-align: center; padding-top: 50px}
+#whosaidit {text-align: center; padding-top: 10px}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+
+#virgilpic1 {
+  margin-top: -100px;
+  padding-bottom: 40px;
+  height: 850px;
+  width: auto;
+  padding-left: 10px;
+}
+
+#delbertvid {
+  height: 200px;
+  width: auto;
+  padding-left: 30px;
+  margin-top: 50px;
+}
+
+#delbertpic {
+  height: 270px;
+  width: auto;
+  padding-left: 30px;
+}
+
+#hulleahquote {
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#whosaidhulleah {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+}
+
+#lynquote {
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin: 50px;
+}
+
+.timeline-item .timeline-date {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+#endlynquote {
+  text-align: center;
+}
+
+.timeline-item .timeline-content {
+  flex: 1;
+}
+
+#holly1 {
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+#holly5 {
+  margin-left: 100px;
+  margin-top: -10px;
+}
+
+#holly3 {
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
+#mciimage {
+  height: 350px;
+  width: auto;
+}
+
+#holly6 {
+  margin-top: 50px;
+  margin-left: -120px;
+}
+
+#holly4 {
+  margin-top: -10px;
+}
+
+#holly2 {
+  margin-top: -10px;
+  margin-left: -120px;
+}
+
+#marginlbm {
+  margin-inline: 5% 10%;
+  writing-mode: horizontal-tb;
+  direction: rtl;
+}
+
+.blue {
+  margin-inline-end: 25px;
+  writing-mode: horizontal-tb;
+  direction: ltr;
+}
+
+.center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#monapic1 {
+  margin-top: -30px;
+}
+
+#monapic {
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+
+#monaquote {
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-right: 35px;
+  margin-top: -60px;
+  margin-left: 35px;
+}
+
+.info {
+  padding-left: 20px;
+}
+
+#whosaiditmona {
+  text-align: center;
+}
+
+.line {
+  border-left: 1px solid black;
+  height: 600px;
+}
+
+.miniline {
+  border-left: 2px solid black;
+  margin-top: 20px;
+  position: relative;
+  top: 20px;
+  height: 90px;
+}
+
+#sacheen { height: 800px; width:auto;
+}
+
+#whosaidjesse {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#chiefquote {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-top: 90px;
+}
+
+.italic-word {
+  font-style: italic;
+}
+
+
+#russelquote {
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#centeritrussel {
+  text-align: center;
+}
+
+#trickyimage {height: 450px; width:auto}
+#extraction {color:black; font-size: 50px; text-align: center; padding-top: 50px; padding-bottom: 20px}
+#poembyher {text-align: center}
+#academyapology {
+
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+.solid {background: white;}
+
+.white-page {
+    background-color: white;
+#imageofsacheen {
+  margin-top: 420px;
+  padding-bottom: 200px;
+}
+
+.btn-light {
+    width: 250px;
+    height: 100px;
+    font-size: 40px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-focus-shadow-rgb: 211,212,213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; 
+}
