@@ -2,6 +2,26 @@
 body {font-family: 'Quicksand'; background: black}
 #title {color: white;text-align: center; padding: 250px; font-size: 80px; }
 
+
+
+
+.btn-primary {
+    --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; 
+}
+
 .pagetitle {text-align: center; padding-top: 50px; padding-bottom: 50px}
 #midge {color:white; padding-left: 810px; padding-top: 130px; font-style: italic;
 }
@@ -69,7 +89,23 @@ background:white; margin-bottom:50px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 #studyfax {margin-top:-50px}
-
+#narrativebarrierbutton {width: 250px;
+    height: 100px;
+    font-size: 40px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-focus-shadow-rgb: 211,212,213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;}
 #numbers {padding-left: 200px; padding-right: 200px; margin-top:-40px;line-height: 1.5; }
 #carouselExampleCaptions {
   max-width: 60%; 
@@ -84,21 +120,73 @@ background:white; margin-bottom:50px;
 
 #newTrailOfTears {
     padding: 10px 20px; margin-top: -20px;
-    margin-left: 10px !important; 
+    margin-left: 10px !important;  --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; 
 }
 
 #newButton {padding: 10px 8px;
     margin: 0; margin-top: 20px;
-   margin-right: 30px !important}
+   margin-right: 30px !important;  --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; }
 
 #sand {padding: 10px 8px;
     margin: 0;    margin-top: -20px;
-     margin-left: 20px !important; width: 200px}
+     margin-left: 20px !important; width: 200px;  --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; }
 
  #boarding {
  	padding: 10px 8px;
     margin: 0;    margin-top: -20px;
-    margin-left: 100px !important; width: 200px;
+    margin-left: 100px !important; width: 200px;  --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; 
  }
  #erasurepoem {margin-top: 20px; margin-bottom: 600px;}
 
@@ -152,24 +240,89 @@ a:hover {
 
 #Wounded {padding: 10px 8px;
     margin: 0;  margin-top: -20px;
-    margin-left: 180px !important; width: 200px
+    margin-left: 180px !important; width: 200px; --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; 
  }
 
 #battlelb {padding: 10px 8px;
     margin: 0;    margin-top: 20px;
-   margin-left: 70px !important}
+   margin-left: 70px !important; --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; }
 
 #dawes {padding: 10px 20px;
     margin: 0;    margin-top: 20px;
-   margin-left: 90px !important}
+   margin-left: 90px !important; --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; }
 
 #appropriations {padding: 10px 8px;
     margin: 0; margin-top: 20px;
-     margin-left: 100px !important}
+     margin-left: 100px !important; --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; }
 
 #newButton2 {padding: 10px 8px;
     margin: 0;  margin-top: -20px;
-     margin-left: 260px !important; width: 230px}
+     margin-left: 260px !important; width: 230px;  --bs-btn-color: #fff ;
+    --bs-btn-bg: #000 ;
+    --bs-btn-border-color: #000 ;
+    --bs-btn-hover-color: #fff ;
+    --bs-btn-hover-bg: #dc7435 ;
+    --bs-btn-hover-border-color: #dc7435;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dc7435;
+    --bs-btn-active-border-color: #dc7435;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc7435;
+    --bs-btn-disabled-border-color: #dc7435; }
 
 .description {line-height: 1.8; padding-bottom: 40px; padding-top:20px;}
 
@@ -191,6 +344,13 @@ a:hover {
   align-items: center;
   margin-bottom: 20px;
 }
+
+#whosaidjessewente {text-align: center;
+  padding-bottom: 10px;}
+
+#quotebyjesse {  text-align: center; padding-top: 50px;
+  line-height: 1.8;
+  font-style: italic;}
 
 #delbertmainpic {height:700px; width:auto;}
 
@@ -322,7 +482,7 @@ a:hover {
   padding-bottom: 40px;
   margin-top: 40px;
 }
-
+#pink{margin-top:440px; padding-left: 20px}
 #monaquote {
   font-style: italic;
   font-size: 15px;
@@ -356,6 +516,8 @@ a:hover {
 #sacheen { height: 800px; width:auto;
 }
 
+
+
 #whosaidjesse {
   text-align: center;
   padding-bottom: 40px;
@@ -369,10 +531,9 @@ a:hover {
   margin-top: 90px;
 }
 
-.italic-word {
-  font-style: italic;
+.italic-text {
+    font-style: italic;
 }
-
 
 #russelquote {
   font-style: italic;
@@ -402,44 +563,3 @@ a:hover {
 
 .white-page {
     background-color: white;
-#imageofsacheen {
-  margin-top: 420px;
-  padding-bottom: 200px;
-}
-
-.btn-light {
-    width: 250px;
-    height: 100px;
-    font-size: 40px;
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #fff;
-    --bs-btn-border-color: #f8f9fa;
-    --bs-btn-hover-color: #000000;
-    --bs-btn-hover-bg: #fff;
-    --bs-btn-hover-border-color: #fff;
-    --bs-btn-focus-shadow-rgb: 211,212,213;
-    --bs-btn-active-color: #000;
-    --bs-btn-active-bg: #c6c7c8;
-    --bs-btn-active-border-color: #babbbc;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #000;
-    --bs-btn-disabled-bg: #f8f9fa;
-    --bs-btn-disabled-border-color: #f8f9fa;
-}
-
-.btn-primary {
-    --bs-btn-color: #fff ;
-    --bs-btn-bg: #000 ;
-    --bs-btn-border-color: #000 ;
-    --bs-btn-hover-color: #fff ;
-    --bs-btn-hover-bg: #dc7435 ;
-    --bs-btn-hover-border-color: #dc7435;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #dc7435;
-    --bs-btn-active-border-color: #dc7435;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #dc7435;
-    --bs-btn-disabled-border-color: #dc7435; 
-}
